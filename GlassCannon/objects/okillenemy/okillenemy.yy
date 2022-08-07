@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sKillEnemy",
-    "path": "sprites/sKillEnemy/sKillEnemy.yy",
+    "name": "sSpikes",
+    "path": "sprites/sSpikes/sSpikes.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
