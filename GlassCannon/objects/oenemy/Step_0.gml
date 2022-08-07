@@ -25,5 +25,6 @@ if (hsp != 0) image_xscale = sign(hsp) * strength;
 if(hp <= 0)
 {
 	global.score += 10 * strength;
+	audio_play_sound(snd_EnemyDeath,5,false);
 	instance_destroy();	
 }

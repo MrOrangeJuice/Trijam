@@ -124,7 +124,7 @@ else
 if (jumpBuffer > 0) && (key_jump) && (canJump)
 {
 	audio_play_sound(snd_Jump,5,false);
-	vsp = -4;
+	vsp = -6;
 	canJump = false;
 }
 

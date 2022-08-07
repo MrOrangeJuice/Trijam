@@ -1,4 +1,4 @@
 /// @description Display Health
 
-draw_text(16,4,global.health);
-draw_text(16,12,global.score);
+draw_text(32,4,"Health: " + string(global.health));
+draw_text(32,12,"Score: " + string(global.score));
