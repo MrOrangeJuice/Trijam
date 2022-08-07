@@ -21,3 +21,9 @@ if (place_meeting(x,y+vsp,oWall))
 y = y + vsp;
 
 if (hsp != 0) image_xscale = sign(hsp) * strength;
+
+if(hp <= 0)
+{
+	global.score += 10 * strength;
+	instance_destroy();	
+}
